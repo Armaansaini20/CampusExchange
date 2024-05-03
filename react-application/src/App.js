@@ -8,7 +8,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://campus-exchange.onrender.com/")
+    fetch("https://campus-exchange.onrender.com")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   },[]);
