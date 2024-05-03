@@ -7,7 +7,7 @@ const productController = require('./controllers/productController');
 const userController = require('./controllers/userController');
 
 const corsOptions = {
-    origin: "https://chic-sawine-2eee5f.netlify.app/login", // frontend URI (ReactJS)
+    origin: "https://campusexchange-frontend.onrender.com/", // frontend URI (ReactJS)
 }
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
