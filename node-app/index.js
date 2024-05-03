@@ -5,6 +5,12 @@ var jwt = require('jsonwebtoken');
 const multer = require('multer')
 const productController = require('./controllers/productController');
 const userController = require('./controllers/userController');
+require("dotenv").config();
+const corsOptions = {
+    origin: "https://6634d70d6f0ede196fadc2f4--unrivaled-brioche-bbea81.netlify.app/", // frontend URI (ReactJS)
+}
+app.use(express.json());
+app.use(cors(corsOptions));
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
