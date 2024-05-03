@@ -7,9 +7,6 @@ const productController = require('./controllers/productController');
 const userController = require('./controllers/userController');
 require("dotenv").config();
 
-cors.options('*', cors());
-
-
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'uploads')
