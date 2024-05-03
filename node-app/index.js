@@ -7,7 +7,7 @@ const productController = require('./controllers/productController');
 const userController = require('./controllers/userController');
 require("dotenv").config();
 
-app.options('*', cors());
+cors.options('*', cors());
 
 
 const storage = multer.diskStorage({
