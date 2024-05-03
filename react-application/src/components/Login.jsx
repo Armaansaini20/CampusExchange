@@ -32,7 +32,7 @@ function Login() {
         <div>
             <Header />
             <div className="p-3 m-3">
-                <h3> Welocme to Login Page </h3>
+                <h3> Welcome to Login Page </h3>
                 <br></br>
                 USERNAME
                 <input className="form-control" type="text" value={username}
