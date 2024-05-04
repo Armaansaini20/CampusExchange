@@ -5,7 +5,6 @@ var jwt = require('jsonwebtoken');
 const multer = require('multer')
 const productController = require('./controllers/productController');
 const userController = require('./controllers/userController');
-require("dotenv").config();
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
