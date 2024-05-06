@@ -23,60 +23,60 @@ function Header(props) {
             "placeName": "New Delhi, Delhi"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.3565,
+            "longitude": 76.36471,
             "placeName": "Hostel C"
         },
-        {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+        /*{
+            "latitude": 30.3566,
+            "longitude": 76.36472,
             "placeName": "Hostel B"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.3567,
+            "longitude": 76.36473,
             "placeName": "Hostel D"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.3568,
+            "longitude": 76.36474,
             "placeName": "Hostel O"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.35649,
+            "longitude": 76.36475,
             "placeName": "Hostel H"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.35650,
+            "longitude": 76.36476,
             "placeName": "Hostel J"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.35651,
+            "longitude": 76.36477,
             "placeName": "Hostel M"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.35652,
+            "longitude": 76.36478,
             "placeName": "Hostel Q"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.35653,
+            "longitude": 76.36479,
             "placeName": "Hostel N"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.35654,
+            "longitude": 76.36480,
             "placeName": "Hostel G"
         },
         {
-            "latitude": 30.3564,
-            "longitude": 76.3647,
+            "latitude": 30.35655,
+            "longitude": 76.36481,
             "placeName": "Hostel I"
-        },
+        },*/
     ]
 
     return (
