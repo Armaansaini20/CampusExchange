@@ -8,7 +8,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://campus-exchange-backend.vercel.app/")
+    fetch("https://campusexchange-1.onrender.com/")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   },[]);
