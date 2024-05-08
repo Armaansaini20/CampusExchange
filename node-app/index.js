@@ -9,8 +9,8 @@ const userController = require('./controllers/userController');
 const corsOptions = {
     origin: "https://663a5740a8fc512dab273ce0--ornate-hummingbird-795016.netlify.app./", // frontend URI (ReactJS)
 }
-app.use(express.json());
-app.use(cors(corsOptions));
+//app.use(express.json());
+//app.use(cors(corsOptions));
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'uploads')
