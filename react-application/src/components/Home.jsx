@@ -25,6 +25,7 @@ function Home() {
 
     useEffect(() => {
         const url = API_URL + '/get-products';
+        console.log('URL: ',url);
         axios.get(url)
             .then((res) => {
                 if (res.data.products) {

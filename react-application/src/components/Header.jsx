@@ -27,6 +27,11 @@ function Header(props) {
             "longitude": 76.36471,
             "placeName": "Hostel C"
         },
+        {
+            "latitude": 30.3553665,
+            "longitude": 76.369568,
+            "placeName": "CSED"
+        }
         /*{
             "latitude": 30.3566,
             "longitude": 76.36472,
